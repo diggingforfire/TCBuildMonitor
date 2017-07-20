@@ -20,7 +20,7 @@ For the sake of simplicity, you can pass parameters in the query string. The fol
 | blink     		| No 			| false 		    	| When set to true, the name of the build breaker will blink	
 | sad     			| No 			| false 		    	| When set to true, a sad trombone announces when the build gets broken
 
-Disclaimer: the auth token can be decoded to reveal the username and password of your TeamCity account. Do not use on a public site without https. After entering the URL, the auth token is removed from the query string. Handle with care.
+Disclaimer: the auth token can be decoded to reveal the username and password of your TeamCity account. Do not host as a public site without https. After entering the URL, the auth token is removed from the query string. Handle with care.
 
 Example url:
 
