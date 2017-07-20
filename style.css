@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	font-family: tahoma;
+}
+
+h1 {
+	color: white;	
+	font-size: 5rem;
+}
+
+h2 {
+	color: white;	
+	font-size: 3rem;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: -50px;
+	padding-bottom: 50px;
+}
+
+.container.success {
+	background-color: green;
+}
+
+.container.failed {
+	background-color: red;
+}
+
+.blink {
+	animation:1s blinker linear infinite;
+	-webkit-animation:1s blinker linear infinite;
+	-moz-animation:1s blinker linear infinite;
+}
+
+@-moz-keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+	
