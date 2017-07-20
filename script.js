@@ -3,7 +3,7 @@
 	var authToken = getParameterByName('authToken');
 
 	var newUrl = removeURLParameter(window.location.href, 'authToken');
-	window.history.pushState('newUrl', "Title", "/" + newUrl);
+	window.history.pushState('newUrl', "Title", newUrl);
 
 	var buildConfigId = getParameterByName('buildConfigId');
 	var blame = getParameterByName('blame') === 'true';
