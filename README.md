@@ -15,7 +15,7 @@ For the sake of simplicity, you can pass parameters in the query string. The fol
 | authToken     	| Yes 			| N/A 		    		| Auth token (base64 encoded username:password)
 | buildConfigId     | Yes 			| N/A 		    		| The id of your build configuration
 | projectName     	| No 			| TeamCity project name | The title to display on screen
-| blame     		| No 			| false		    		| When set to true, the name of the committer who broke the build is displayed (in case of mulitple committers, the first one is displayed)
+| blame     		| No 			| false		    		| When set to true, the name of the committer who broke the build is displayed (in case of multiple committers, the first one is displayed)
 | showBuildTime     | No 			| false 		    	| When set to true, the build time will be displayed
 | blink     		| No 			| false 		    	| When set to true, the name of the build breaker will blink	
 | sad     			| No 			| false 		    	| When set to true, a sad trombone announces when the build gets broken
