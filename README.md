@@ -1,5 +1,5 @@
 # TCBuildNazi
-Simple page that shows the last build status of a TeamCity build configuration in glorious green (build succeeded) or red (build failed). 
+Simple page that shows the last build status of a TeamCity build configuration in glorious green (build succeeded) or red (build failed). Updates on a 10 second interval.
 
 Tested with TeamCity 2017.1.2 (build 46812)
 
@@ -20,7 +20,7 @@ For the sake of simplicity, you can pass parameters in the query string. The fol
 | blink     		| No 			| false 		    	| When set to true, the name of the build breaker will blink	
 | sad     			| No 			| false 		    	| When set to true, a sad trombone announces when the build gets broken
 
-Disclaimer: the auth token can be decoded to reveal the username and password of your TeamCity account. Do not host as a public site without https. After entering the URL, the auth token is removed from the query string. Handle with care.
+Disclaimer: the auth token can be decoded to reveal the username and password of your TeamCity account. Do not host as a public site without https. After entering the URL, the auth token is removed from the query string with history state (this means you cannot easily refresh the page after it has loaded). Handle with care.
 
 Example url:
 
