@@ -1,4 +1,4 @@
-# TCBuildNazi
+# TCBuildMonitor
 Simple page that shows the last build status of a TeamCity build configuration in glorious green (build succeeded) or red (build failed). Updates on a 10 second interval.
 
 Tested with TeamCity 2017.1.2 (build 46812)
